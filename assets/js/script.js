@@ -24,4 +24,8 @@ const favoriteColor = prompt('What\'s your favorite color?');
 console.log(favoriteColor);
 
 
-// wrtite down on the page the result password
+/* write down on the page the result password */
+// assign the HTML element to a variable
+let resultPassword = document.getElementById('result-password');
+// assign value to the HTML element
+resultPassword.innerHTML = `${userName}${userLastName}${favoriteColor}23`;
