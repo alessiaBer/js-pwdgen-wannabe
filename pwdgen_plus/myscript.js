@@ -23,6 +23,9 @@ console.log(favoriteColor);
 /* write down on the page the result password */
 // assign the HTML element to a variable
 const resultPassword = document.getElementById('result-password');
+//display h4
+const passwordLabel = document.getElementById('passh4');
+passwordLabel.innerHTML = 'Your resulting password is'
 // assign value to the HTML element
 resultPassword.innerHTML = `${userName}${userLastName}${favoriteColor}23`;
 };
