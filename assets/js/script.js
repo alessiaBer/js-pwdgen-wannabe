@@ -26,6 +26,6 @@ console.log(favoriteColor);
 
 /* write down on the page the result password */
 // assign the HTML element to a variable
-let resultPassword = document.getElementById('result-password');
+const resultPassword = document.getElementById('result-password');
 // assign value to the HTML element
 resultPassword.innerHTML = `${userName}${userLastName}${favoriteColor}23`;
